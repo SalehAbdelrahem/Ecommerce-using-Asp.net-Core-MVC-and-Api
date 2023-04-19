@@ -1,0 +1,237 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\BackUp Project\\ITI_FinalProject_LastVersion\\AdminSiteUseMVC\\AdminSiteUseMVC.csproj": {}
+  },
+  "projects": {
+    "D:\\BackUp Project\\ITI_FinalProject_LastVersion\\AdminSiteUseMVC\\AdminSiteUseMVC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\BackUp Project\\ITI_FinalProject_LastVersion\\AdminSiteUseMVC\\AdminSiteUseMVC.csproj",
+        "projectName": "AdminSiteUseMVC",
+        "projectPath": "D:\\BackUp Project\\ITI_FinalProject_LastVersion\\AdminSiteUseMVC\\AdminSiteUseMVC.csproj",
+        "packagesPath": "C:\\Users\\sa558\\.nuget\\packages\\",
+        "outputPath": "D:\\BackUp Project\\ITI_FinalProject_LastVersion\\AdminSiteUseMVC\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\sa558\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\BackUp Project\\ITI_FinalProject_LastVersion\\DBContext\\DBContext.csproj": {
+                "projectPath": "D:\\BackUp Project\\ITI_FinalProject_LastVersion\\DBContext\\DBContext.csproj"
+              },
+              "D:\\BackUp Project\\ITI_FinalProject_LastVersion\\Domian\\Domian.csproj": {
+                "projectPath": "D:\\BackUp Project\\ITI_FinalProject_LastVersion\\Domian\\Domian.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Azure.Storage.Blobs": {
+              "target": "Package",
+              "version": "[12.15.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "NETCore.MailKit": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\BackUp Project\\ITI_FinalProject_LastVersion\\DBContext\\DBContext.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\BackUp Project\\ITI_FinalProject_LastVersion\\DBContext\\DBContext.csproj",
+        "projectName": "DBContext",
+        "projectPath": "D:\\BackUp Project\\ITI_FinalProject_LastVersion\\DBContext\\DBContext.csproj",
+        "packagesPath": "C:\\Users\\sa558\\.nuget\\packages\\",
+        "outputPath": "D:\\BackUp Project\\ITI_FinalProject_LastVersion\\DBContext\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\sa558\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\BackUp Project\\ITI_FinalProject_LastVersion\\Domian\\Domian.csproj": {
+                "projectPath": "D:\\BackUp Project\\ITI_FinalProject_LastVersion\\Domian\\Domian.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\BackUp Project\\ITI_FinalProject_LastVersion\\Domian\\Domian.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\BackUp Project\\ITI_FinalProject_LastVersion\\Domian\\Domian.csproj",
+        "projectName": "Domian",
+        "projectPath": "D:\\BackUp Project\\ITI_FinalProject_LastVersion\\Domian\\Domian.csproj",
+        "packagesPath": "C:\\Users\\sa558\\.nuget\\packages\\",
+        "outputPath": "D:\\BackUp Project\\ITI_FinalProject_LastVersion\\Domian\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\sa558\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
