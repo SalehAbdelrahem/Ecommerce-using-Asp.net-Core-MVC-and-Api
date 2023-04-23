@@ -16,6 +16,7 @@ namespace Dtos.Brand
         //Globalization
         [MinLength(3), MaxLength(200)]
         public string NameAR { get; set; }
+    
 
         //public List<string> Products { get; set; } = new List<string>();
         //public string Images { get; set; } 

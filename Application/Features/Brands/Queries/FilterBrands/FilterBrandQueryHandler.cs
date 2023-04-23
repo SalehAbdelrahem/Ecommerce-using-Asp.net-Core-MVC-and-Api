@@ -20,7 +20,7 @@ namespace Application.Features.Brands.Queries.FilterBrands
         public async Task<IEnumerable<BrandMinimalDto>> Handle(FilterBrandQuery request, CancellationToken cancellationToken)
         {
             return (await _brandRepository.FilterByAsync(request.filter))
-                .Select(brand => new BrandMinimalDto() { Id = brand.Id, NameEN = brand.NameEN ,NameAR = brand.NameAR});
+                .Select(brand => new BrandMinimalDto() { Id = brand.Id, NameEN = brand.NameEN ,NameAR = brand.NameAR,ImageURL=brand.ImageURL});
         }
     }
 }

@@ -15,7 +15,6 @@ namespace InfraStructure
                 .Where(a => id == null ? true : a.Id == id.Value);  
         }
 
-
         public override async Task<Brand?> GetDetailsAsync(int id)
         {
             return _context.Brands.Where(a => a.Id == id).Include(a => a.Products).ThenInclude(x=>x.Images).FirstOrDefault();

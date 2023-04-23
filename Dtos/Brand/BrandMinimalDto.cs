@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace Dtos.Brand
 {
@@ -15,5 +10,6 @@ namespace Dtos.Brand
         //Globalization
         [MinLength(3), MaxLength(200)]
         public string NameAR { get; set; }
+        public string ImageURL { get; set; }
     }
 }
